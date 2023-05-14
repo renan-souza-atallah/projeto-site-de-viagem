@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Cinzel', sans-serif;
+    background-image: url(https://i.ibb.co/G7svshP/frases-de-viagem-cm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+h1 span{
+    color: #1145a5;
+}
+
+h1{
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    font-style: normal;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    opacity: 90%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+
+a{
+    padding: 16px 32px;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.secundary{
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+}
+
+.btn-primary{
+    text-decoration: none;
+    color: white;
+    background-color: #1145a5;
+    border-radius: 80px;
+    opacity: 1;
+}
